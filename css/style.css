@@ -6,13 +6,13 @@ body {
   color: #343434;
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0; }
 
 h1,
 h2 {
-  font-family: 'Bree Serif', serif; }
+  font-family: "Bree-Serif", serif; }
 
 ul {
   list-style-type: none;
@@ -33,6 +33,7 @@ header h1 {
   letter-spacing: 1px; }
 
 header p {
+  color: #eeea72;
   font-size: 1.25em;
   margin: 0; }
 
