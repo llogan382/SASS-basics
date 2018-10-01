@@ -1,6 +1,11 @@
 $primary-color: #278da4;
 $color-secondary: #b13c69;
 $color-accent: #eeea72;
+$color-shade: #eee;
+
+$color-text: #343434;
+$color-bg: #3acec2;
+$color-bg-light: #009fe1;
 
 $font-stack-primary: 'Raleway', sans-serif;
 $font-stack-secondary: 'Bree-Serif', serif;
@@ -14,7 +19,7 @@ $font-stack-secondary: 'Bree-Serif', serif;
   }
   
   body {
-    color: #343434;
+    color: $color-text;
     font-size: 1rem;
     line-height: 1.5;
     font-family: $font-stack-primary;
@@ -37,7 +42,7 @@ $font-stack-secondary: 'Bree-Serif', serif;
   
   header {
     height: 460px;
-    background: linear-gradient(#009fe1, #3acec2), 
+    background: linear-gradient($color-bg-light, $color-bg), 
                 url('../img/bg.jpg') no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
